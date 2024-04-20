@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GERENCIADOR DE TAREFAS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Gerenciador de Tarefas</h1>
+  <form id="taskForm">
+    <label for="taskName">Nome: </label>
+    <input type="text" id="taskName" required><br>
+
+    <label for="taskDetails">Tarefa: </label>
+    <input type="text" id="taskDetails" required><br>
+
+    <label for="taskDate">Data do Lembrete: </label>
+    <input type="date" id="taskDate" required><br>
+
+    <button type="submit">Adicionar Tarefa</button>
+  </form>
+
+  <div id="message"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
